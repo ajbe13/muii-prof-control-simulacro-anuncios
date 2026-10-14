@@ -12,8 +12,8 @@ if [ ! -f "$PROJECT_ROOT/params.txt" ]; then
 fi
 
 # TODO: Copia aquí, a mano, desde params.txt, el nombre del secreto y la contraseña de la base de datos.
-SECRET_NAME=<nombre del secreto>
-DB_PASS=<contraseña de la BD>
+SECRET_NAME="prod/anuncios/000000"
+DB_PASS="aa416d96e5424db58444add3"
 
 DB_USER="admin"
 DB_NAME="anuncios"
